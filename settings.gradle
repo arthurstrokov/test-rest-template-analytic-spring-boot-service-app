@@ -1,0 +1,3 @@
+rootProject.name = 'test-rest-template-analytic-spring-boot-service-app'
+include 'starter'
+
