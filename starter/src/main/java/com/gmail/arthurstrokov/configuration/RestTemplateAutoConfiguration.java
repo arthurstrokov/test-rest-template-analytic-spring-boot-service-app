@@ -1,4 +1,4 @@
-package com.gmail.arthurstrokov;
+package com.gmail.arthurstrokov.configuration;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 @ComponentScan(basePackages = "com.gmail.arthurstrokov")
 @EnableAspectJAutoProxy
-public class StarterAutoConfiguration {
+public class RestTemplateAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
