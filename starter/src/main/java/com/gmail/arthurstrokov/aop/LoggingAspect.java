@@ -29,5 +29,4 @@ public class LoggingAspect {
         log.info("Request result: {}", value);
         return value;
     }
-    
 }
